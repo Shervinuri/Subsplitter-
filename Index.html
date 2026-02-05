@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <title>SHΞN™ V2Ray Sub Builder — Single File</title>
+  <title>SHΞN™ V2Ray Splitter — </title>
   <style>
     :root{
       --bg:#050607; --panel:rgba(18,18,24,.72); --border:rgba(255,255,255,.10);
@@ -272,15 +272,15 @@
 
       <div class="tabs">
         <div id="tabSmart" class="tab active" onclick="switchMode('smart')"><span class="i">AUTO</span> هوشمند</div>
-        <div id="tabManual" class="tab" onclick="switchMode('manual')"><span class="i">MAN</span> دستی</div>
+        <div id="tabManual" class="tab" onclick="switchMode('manual')"><span class="i">Manual</span> دستی</div>
       </div>
 
       <div class="bd" id="smartBox">
         <div class="small">
-          حالت هوشمند: اگر «نمونه کانفیگ سالم» بدی، اپ سعی می‌کنه به همون الگو نزدیک‌تر انتخاب کنه.
-          اگر نمونه ندی، هیچ محدودیتی اعمال نمی‌کنه و فقط بر اساس امتیازدهی سبک، بهترین‌ها رو بالا می‌آره.
+          حالت هوشمند: اگر «نمونه هایی از کانفیگ متصل و سازگار با اینترنتت» بدی ، اپ آنالیزشون میکنه و گزینش هوشمند برای پیدا کردن موارد مشابه صورت میگیره   .
+          اگر نمونه ندی، فقط بر اساس فیلتر دستی غیر اتومات ، طبق تیک های فعال گزینش میکنه.
         </div>
-        <textarea id="sampleInput" style="margin-top:10px; min-height:92px" placeholder="(اختیاری) نمونه کانفیگ‌های سالم خودت رو اینجا بذار..."></textarea>
+        <textarea id="sampleInput" style="margin-top:10px; min-height:92px" placeholder="(اختیاری) نمونه کانفیگ‌هایی که باهاشون تجربه ی اتصال موفق داشتی حتی اگر منقضی شده برام اینجا بذار..."></textarea>
         <div class="small" id="smartHint" style="margin-top:10px; display:none">
           الگوی تشخیص داده شد: Proto=<span class="kbd" id="sProto">?</span> Net=<span class="kbd" id="sNet">?</span> Port=<span class="kbd" id="sPort">?</span>
         </div>
